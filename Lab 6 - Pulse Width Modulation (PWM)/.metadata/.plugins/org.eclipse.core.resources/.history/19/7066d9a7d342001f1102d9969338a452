@@ -7,7 +7,7 @@
 #include "fsl_debug_console.h"
 
 volatile bool SW2btn_press = false;
-volatile uint8_t updatedDutycycle = 0;
+volatile uint8_t updatedDutycycle = 0U;
 
 void delay(void)
 {
@@ -26,9 +26,7 @@ void SW2_GPIOC_IRQHANDLER(void) {
 void SW3_GPIOA_IRQHANDLER(void) {
     GPIO_PortClearInterruptFlags(GPIOA, 1U << 4U);
     SW2btn_press = false;
-    
     FTM_StopTimer(FTM0_PERIPHERAL);
-
     updatedDutycycle = 0;
     FTM_UpdatePwmDutycycle(FTM0_PERIPHERAL, kFTM_Chnl_1, kFTM_EdgeAlignedPwm, updatedDutycycle);
     FTM_SetSoftwareTrigger(FTM0_PERIPHERAL, true);
@@ -48,17 +46,17 @@ int main(void) {
     PRINTF("\nPress SW2 to sweep the Dutycycle from 0% -> 100% -> 0% coninuously");
     PRINTF("\nPress SW3 to stop the process");
 
-    while (true) {
+    while (1) {
         FTM_StartTimer(FTM0_PERIPHERAL, kFTM_SystemClock);
 
         if (SW2btn_press) {
-            for (updatedDutycycle = 0; updatedDutycycle < 100 && SW2btn_press; updatedDutycycle += 10) {
+            for (updatedDutycycle = 0; updatedDutycycle <= 100; updatedDutycycle += 10) {
                 FTM_UpdatePwmDutycycle(FTM0_PERIPHERAL, kFTM_Chnl_1, kFTM_EdgeAlignedPwm, updatedDutycycle);
                 FTM_SetSoftwareTrigger(FTM0_PERIPHERAL, true);
                 delay();
             }
 
-            for (updatedDutycycle = 100; updatedDutycycle > 0 && SW2btn_press; updatedDutycycle -= 10) {
+            for (updatedDutycycle = 100; updatedDutycycle >= 0; updatedDutycycle -= 10) {
                 FTM_UpdatePwmDutycycle(FTM0_PERIPHERAL, kFTM_Chnl_1, kFTM_EdgeAlignedPwm, updatedDutycycle);
                 FTM_SetSoftwareTrigger(FTM0_PERIPHERAL, true);
                 delay();

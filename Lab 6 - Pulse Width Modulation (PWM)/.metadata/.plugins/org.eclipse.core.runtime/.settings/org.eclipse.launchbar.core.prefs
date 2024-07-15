@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2 LinkServer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2_1btn LinkServer Debug,org.eclipse.launchbar.core.descriptorType.default\:Lab6_PWM_pinPTC2_2btn LinkServer Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2 LinkServer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2_1btn LinkServer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2_2btn LinkServer Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2\ LinkServer\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab6_PWM_pinPTC2\ LinkServer\ Debug/activeLaunchTarget=null\:---
