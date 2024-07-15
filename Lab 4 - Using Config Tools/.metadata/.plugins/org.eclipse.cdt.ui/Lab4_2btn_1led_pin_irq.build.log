@@ -1,0 +1,11 @@
+13:49:05 **** Incremental Build of configuration Debug for project Lab4_2btn_1led_pin_irq ****
+make -r -j8 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "Lab4_2btn_1led_pin_irq.axf"; # arm-none-eabi-objcopy -v -O binary "Lab4_2btn_1led_pin_irq.axf" "Lab4_2btn_1led_pin_irq.bin" ; # checksum -p MK64FN1M0xxx12 -d "Lab4_2btn_1led_pin_irq.bin";
+   text	   data	    bss	    dec	    hex	filename
+  13088	     16	   8440	  21544	   5428	Lab4_2btn_1led_pin_irq.axf
+ 
+
+13:49:06 Build Finished. 0 errors, 0 warnings. (took 364ms)
+

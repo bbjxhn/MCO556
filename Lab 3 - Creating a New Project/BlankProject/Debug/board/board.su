@@ -1,0 +1,2 @@
+E:\MCO 556\Lab 3 - Creating a New Project\BlankProject\utilities/fsl_debug_console.h:154:24:DbgConsole_Init	24	static
+../board/board.c:17:6:BOARD_InitDebugConsole	16	static

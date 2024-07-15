@@ -1,0 +1,7 @@
+C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\drivers/fsl_ftm.h:731:20:FTM_StartTimer	24	static
+C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\drivers/fsl_ftm.h:745:20:FTM_StopTimer	16	static
+C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\drivers/fsl_ftm.h:1027:20:FTM_SetSoftwareTrigger	16	static
+../source/Lab6_PWM_pinPTC2_2btn.c:12:6:delay	16	static
+../source/Lab6_PWM_pinPTC2_2btn.c:20:6:PORTC_IRQHandler	8	static
+../source/Lab6_PWM_pinPTC2_2btn.c:29:6:PORTA_IRQHandler	8	static
+../source/Lab6_PWM_pinPTC2_2btn.c:37:5:main	8	static

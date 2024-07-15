@@ -1,0 +1,6 @@
+E:\MCO 556\Lab 4 - Using Config Tools\MK64F12_Project\CMSIS/core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+E:\MCO 556\Lab 4 - Using Config Tools\MK64F12_Project\drivers/fsl_common_arm.h:499:24:EnableIRQ	24	static
+../board/peripherals.c:109:13:GPIOA_init	8	static
+../board/peripherals.c:141:13:GPIOC_init	8	static
+../board/peripherals.c:150:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:160:6:BOARD_InitBootPeripherals	8	static

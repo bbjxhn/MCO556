@@ -1,0 +1,801 @@
+!SESSION 2024-06-10 13:44:54.007 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-06-10 13:45:45.802
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-06-10 13:45:53.179
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-10 13:45:58.085
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jmtri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2024-06-10 13:45:59.501
+!MESSAGE The device 'MK64FN1M0xxx12' (version='1.0.0') from SDK 'SDK_2.x_FRDM-K64F' (version='2.11.0', build='epluginsite519 2022-01-17') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-10 13:48:02.332
+!MESSAGE Indexed 'MK64F12_Project' (22 sources, 43 headers) in 4.31 sec: 6,315 declarations; 15,863 references; 13 unresolved inclusions; 55 syntax errors; 1,490 unresolved names (6.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-10 13:48:56.525
+!MESSAGE Indexed 'Lab5_PIT_2btn_led_pin' (23 sources, 48 headers) in 1.41 sec: 6,726 declarations; 18,680 references; 3 unresolved inclusions; 24 syntax errors; 28 unresolved names (0.11%)
+!SESSION 2024-06-10 14:10:43.407 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-06-10 14:11:01.803
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-10 14:11:10.293
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jmtri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:11:29.815
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:11:30.848
+!MESSAGE RedlinkServer telnet session connected on port 3025->61455 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:11:37.955
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=61482, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:11:40.690
+!MESSAGE Telnet session connected on port 3330->61505 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:18:07.868
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:18:08.877
+!MESSAGE RedlinkServer telnet session connected on port 3025->61677 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:18:10.840
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=61692, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:18:13.299
+!MESSAGE Telnet session connected on port 3330->61719 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2024-06-10 14:20:58.933
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-06-10 14:20:58.942
+!MESSAGE There is already a running debug session for the launch configuration 'Lab5_PIT_2btn_led_pin LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:21:35.908
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:21:36.930
+!MESSAGE RedlinkServer telnet session connected on port 3025->61775 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:21:39.387
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=61813, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:21:41.834
+!MESSAGE Telnet session connected on port 3330->61830 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2024-06-10 14:24:24.852
+!MESSAGE There is already a running debug session for the launch configuration 'Lab5_PIT_2btn_led_pin LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:24:30.884
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:24:30.888
+!MESSAGE RedlinkServer telnet session connected on port 3025->61876 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:24:32.347
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:24:33.353
+!MESSAGE RedlinkServer telnet session connected on port 3025->61914 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:24:33.857
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=61915, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:24:36.349
+!MESSAGE Telnet session connected on port 3330->61929 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:25:07.244
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:25:08.254
+!MESSAGE RedlinkServer telnet session connected on port 3025->61949 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:25:10.301
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=61962, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:25:12.796
+!MESSAGE Telnet session connected on port 3330->62004 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:26:44.278
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:26:45.296
+!MESSAGE RedlinkServer telnet session connected on port 3025->62041 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:26:51.684
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62277, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:26:54.126
+!MESSAGE Telnet session connected on port 3330->62293 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:27:20.939
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:27:21.946
+!MESSAGE RedlinkServer telnet session connected on port 3025->62343 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:27:23.997
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62367, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:27:26.448
+!MESSAGE Telnet session connected on port 3330->62381 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:30:34.455
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:30:35.465
+!MESSAGE RedlinkServer telnet session connected on port 3025->62441 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:30:37.306
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62452, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:30:39.757
+!MESSAGE Telnet session connected on port 3330->62473 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:31:29.443
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:31:30.451
+!MESSAGE RedlinkServer telnet session connected on port 3025->62515 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:31:32.245
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62539, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:31:34.725
+!MESSAGE Telnet session connected on port 3330->62559 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:56:26.322
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:56:27.330
+!MESSAGE RedlinkServer telnet session connected on port 3025->62769 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:56:28.929
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62800, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:56:31.372
+!MESSAGE Telnet session connected on port 3330->62816 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:58:24.355
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:58:25.363
+!MESSAGE RedlinkServer telnet session connected on port 3025->62857 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:58:26.942
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62867, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 14:58:29.393
+!MESSAGE Telnet session connected on port 3330->62900 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 14:58:54.068
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 14:58:55.077
+!MESSAGE RedlinkServer telnet session connected on port 3025->62909 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 14:59:00.297
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 14:59:00.298
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 14:59:00.298
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 14:59:00.299
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 14:59:00.299
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 14:59:00.299
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:00:04.114
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=62970, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 15:00:06.556
+!MESSAGE Telnet session connected on port 3330->62991 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:01:19.527
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 15:01:19.529
+!MESSAGE RedlinkServer telnet session connected on port 3025->63233 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:01:21.164
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=63262, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 15:01:23.622
+!MESSAGE Telnet session connected on port 3330->63282 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:02:18.904
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@5ab19d09): Status ERROR: org.eclipse.cdt.dsf code=10005 Composite status children=[Status ERROR: org.eclipse.cdt.dsf code=0 Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@ebf5328): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3 Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.GdbLaunch$5@30ec8477): Status ERROR: org.eclipse.cdt.dsf code=0 Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@ebf5328): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3' resulted in a rejected execution exception.]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 0 2024-06-10 15:02:18.904
+!MESSAGE Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@ebf5328): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10005 2024-06-10 15:02:18.904
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.GdbLaunch$5@30ec8477): Status ERROR: org.eclipse.cdt.dsf code=0 Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@ebf5328): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:02:18.905
+!MESSAGE Composite status
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb.ui 4 0 2024-06-10 15:02:18.905
+!MESSAGE Service is not available.
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10005 2024-06-10 15:02:18.905
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.GdbDisconnectCommand$1@122f1bfc): Status ERROR: org.eclipse.cdt.dsf.gdb.ui code=0 Service is not available.' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:02:18.907
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@779ab2c): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:02:18.907
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5d9fd9e4): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:02:20.528
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=63330, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 15:02:22.986
+!MESSAGE Telnet session connected on port 3330->63357 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:03:45.305
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 15:03:45.309
+!MESSAGE RedlinkServer telnet session connected on port 3025->63369 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.897
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.897
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.898
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.898
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.938
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.939
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.940
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.940
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.941
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.941
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.941
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-06-10 15:03:47.942
+!MESSAGE Request for monitor: 'NOTHING_BEING_DEBUGGED' resulted in a rejected execution exception.
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:03:54.101
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-06-10 15:03:55.118
+!MESSAGE RedlinkServer telnet session connected on port 3025->63416 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-06-10 15:03:56.334
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.5.30/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=63435, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/Lab5_PIT_2btn_led_pin/Debug, --flash-dir, C:/nxp/LinkServer_1.5.30/binaries/Flash, --flash-dir, C:/Users/jmtri/OneDrive/Desktop/MCO 556/Lab 5 - Periodic Interrupt Timer/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-06-10 15:03:58.816
+!MESSAGE Telnet session connected on port 3330->63452 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-06-10 15:07:28.946
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-06-10 15:07:28.946
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-06-10 15:07:28.946
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-06-10 15:07:28.946
+!MESSAGE Debugging context: Lab5_PIT_2btn_led_pin LinkServer Debug
+
+!ENTRY org.eclipse.ui.console 4 120 2024-06-10 15:07:38.456
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-06-10 15:07:38.457
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-06-10 15:07:43.380
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.terminate(GdbLaunch.java:313)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2346)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:706)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2024-06-10 15:07:43.383
+!MESSAGE Terminate failed
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-10 15:07:43.404
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:113)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:144)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:165)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:609)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getAdapter(GdbLaunch.java:454)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.disconnect(GdbLaunch.java:338)
+	at org.eclipse.debug.internal.core.commands.DisconnectCommand.execute(DisconnectCommand.java:35)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-06-10 15:07:43.736
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2024-06-12 12:21:45.515 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-06-12 12:22:27.074
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-12 12:22:37.980
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jmtri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-12 12:27:22.442
+!MESSAGE An internal error occurred during: "UI refresh".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1278)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2590)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runNowOrInJob(UIJobHelper.java:215)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.cancelPrevJob(ValidationService.java:245)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.runAction(ValidationService.java:220)
+	at com.nxp.swtools.common.utils.runtime.DelayedExecution$1.run(DelayedExecution.java:376)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-13 08:30:48.581 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-06-13 08:31:38.835
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-13 08:31:51.152
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jmtri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.219
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "adapterGpioList" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.223
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "adapterGpioUsedList" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.224
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "isGPIOAdapterComponentUsed" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.226
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "addedMultipleTypesGPIOAdapterComponents" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.228
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "gpioAdapterComponentsIDs" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.231
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "gpioAdapterType" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.232
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "firstGPIOAdapterInstance" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2024-06-13 08:32:11.233
+!MESSAGE [SDK/DATA] Load from MEX/YAML: type of the setting with ID "firstGPIOAdapterInstanceIDs" differs from the component definition, therefore its value cannot be restored. Type from MEX/YAML: "StoragePeriphsScalarSetting", type from the component definition: "VariableSetting", component: "gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6".
+
+!ENTRY org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.navigate.opentype"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.navigate.opentype"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.navigate.open.type.in.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.navigate.open.type.in.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Searches for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.search.findrefs"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Searches for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.search.findrefs"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Opens the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.open.call.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Opens the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.open.call.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.open.include.browser"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.open.include.browser"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Renames the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.text.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Renames the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.text.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Searches for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.search.finddecl"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Searches for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.search.finddecl"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.opendecl"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.opendecl"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-13 08:36:01.822
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.open.type.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.edit.open.type.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)

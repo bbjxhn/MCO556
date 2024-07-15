@@ -1,0 +1,25 @@
+09:38:56 **** Incremental Build of configuration Debug for project Lab6_PWM_pinPTC2_2btn ****
+make -r -j8 all 
+Building file: ../source/Lab6_PWM_pinPTC2_2btn.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DSDK_OS_BAREMETAL -DSERIAL_PORT_TYPE_UART=1 -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\board" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\source" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\utilities" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\drivers" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\device" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\component\serial_manager" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\component\lists" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\CMSIS" -I"C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\component\uart" -O0 -fno-common -g3 -gdwarf-4 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/Lab6_PWM_pinPTC2_2btn.d" -MT"source/Lab6_PWM_pinPTC2_2btn.o" -MT"source/Lab6_PWM_pinPTC2_2btn.d" -o "source/Lab6_PWM_pinPTC2_2btn.o" "../source/Lab6_PWM_pinPTC2_2btn.c"
+Finished building: ../source/Lab6_PWM_pinPTC2_2btn.c
+ 
+Building target: Lab6_PWM_pinPTC2_2btn.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Lab6_PWM_pinPTC2_2btn.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T Lab6_PWM_pinPTC2_2btn_Debug.ld -o "Lab6_PWM_pinPTC2_2btn.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mk64f12.o  ./source/Lab6_PWM_pinPTC2_2btn.o ./source/semihost_hardfault.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MK64F12.o  ./component/uart/fsl_adapter_uart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15984 B         1 MB      1.52%
+      SRAM_UPPER:        8464 B       192 KB      4.31%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+        FLEX_RAM:          0 GB         4 KB      0.00%
+Finished building target: Lab6_PWM_pinPTC2_2btn.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "Lab6_PWM_pinPTC2_2btn.axf"; # arm-none-eabi-objcopy -v -O binary "Lab6_PWM_pinPTC2_2btn.axf" "Lab6_PWM_pinPTC2_2btn.bin" ; # checksum -p MK64FN1M0xxx12 -d "Lab6_PWM_pinPTC2_2btn.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15968	     16	   8448	  24432	   5f70	Lab6_PWM_pinPTC2_2btn.axf
+ 
+
+09:38:57 Build Finished. 0 errors, 0 warnings. (took 876ms)
+

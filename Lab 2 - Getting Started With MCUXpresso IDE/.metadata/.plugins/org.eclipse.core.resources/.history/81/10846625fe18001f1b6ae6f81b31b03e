@@ -1,0 +1,42 @@
+/*****************************************/
+/*File name: hello_world.c               */
+/*Author: John Trinidad                  */
+/*Date: 5/16/2024                        */
+/*Program Description:                   */
+/*****************************************/
+
+
+#include "fsl_device_registers.h"
+#include "fsl_debug_console.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+#include "board.h"
+
+int main(void)
+{
+	char ch;
+
+    char name[30];
+    int ID;
+
+    BOARD_InitBootPins();
+    BOARD_InitBootClocks();
+    BOARD_InitDebugConsole();
+
+    PRINTF("hello world.\r\n");
+
+    while (1) {
+    	ch = GETCHAR();
+    	PUTCHAR(ch);
+    }
+
+    PRINTF("Please input your full name: ");
+    gets(name);
+    PRINTF("Your name is: \n");
+    puts(name);
+
+    PRINTF("Please input your student ID number: ");
+    SCANF("%d", &ID);
+    PRINTF("Your student ID number is: \n");
+    PRINTF("%d", ID);
+}

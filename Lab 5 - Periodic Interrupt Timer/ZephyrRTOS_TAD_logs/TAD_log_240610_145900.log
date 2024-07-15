@@ -1,0 +1,6 @@
+"Task Aware Debugger for GDB" version 11.9.1 (202403060848)
+Copyright 2016-2023 NXP
+==================================
+14:58:55.371 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\jmtri\OneDrive\Desktop\MCO 556\Lab 5 - Periodic Interrupt Timer\Lab5_PIT_2btn_led_pin\Debug\.config (The system cannot find the file specified)]
+14:58:55.371 INFO: [TadModel] DSF session ID 13 has started.
+14:59:00.154 INFO: [TadModel] DSF session ID 13 has ended.

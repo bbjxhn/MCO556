@@ -1,0 +1,5 @@
+E:\MCO 556\Lab 4 - Using Config Tools\MK64F12_Project\drivers/fsl_gpio.h:191:20:GPIO_PortSet	16	static
+E:\MCO 556\Lab 4 - Using Config Tools\MK64F12_Project\drivers/fsl_gpio.h:206:20:GPIO_PortClear	16	static
+../source/MK64F12_Project.c:20:6:PORTC_IRQHandler	8	static
+../source/MK64F12_Project.c:27:6:PORTA_IRQHandler	8	static
+../source/MK64F12_Project.c:34:5:main	8	static

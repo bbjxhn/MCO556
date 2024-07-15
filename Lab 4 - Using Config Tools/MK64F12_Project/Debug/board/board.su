@@ -1,0 +1,2 @@
+E:\MCO 556\Lab 4 - Using Config Tools\MK64F12_Project\utilities/fsl_debug_console.h:154:24:DbgConsole_Init	24	static
+../board/board.c:17:6:BOARD_InitDebugConsole	16	static

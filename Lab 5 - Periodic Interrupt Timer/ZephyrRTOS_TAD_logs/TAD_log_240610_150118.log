@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 11.9.1 (202403060848)
+Copyright 2016-2023 NXP
+==================================
+15:00:03.168 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\jmtri\OneDrive\Desktop\MCO 556\Lab 5 - Periodic Interrupt Timer\Lab5_PIT_2btn_led_pin\Debug\.config (The system cannot find the file specified)]
+15:00:03.168 INFO: [TadModel] DSF session ID 14 has started.
+15:00:07.253 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+15:00:07.299 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+15:00:08.637 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+15:00:08.769 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+15:00:12.42 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+15:01:16.582 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+15:01:18.766 INFO: [TadModel] DSF session ID 14 has ended.

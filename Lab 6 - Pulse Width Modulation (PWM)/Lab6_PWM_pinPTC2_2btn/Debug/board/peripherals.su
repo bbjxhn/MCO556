@@ -1,0 +1,8 @@
+C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\CMSIS/core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\drivers/fsl_common_arm.h:499:24:EnableIRQ	24	static
+C:\Users\jmtri\Desktop\MCO 556\Lab 6 - Pulse Width Modulation (PWM)\Lab6_PWM_pinPTC2_2btn\drivers/fsl_ftm.h:679:20:FTM_SetTimerPeriod	16	static
+../board/peripherals.c:109:13:GPIOA_init	8	static
+../board/peripherals.c:141:13:GPIOC_init	8	static
+../board/peripherals.c:241:13:FTM0_init	8	static
+../board/peripherals.c:250:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:261:6:BOARD_InitBootPeripherals	8	static

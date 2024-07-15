@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab6_PWM_pinPTC2_2btn/source/Lab6_PWM_pinPTC2.c&apos; to &apos;Lab6_PWM_pinPTC2_2btn.c&apos;" description="Rename resource &apos;Lab6_PWM_pinPTC2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/Lab6_PWM_pinPTC2.c" name="Lab6_PWM_pinPTC2_2btn.c" stamp="1720703412391" updateReferences="true"/>
+</session>

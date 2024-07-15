@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include "board.h"
+#include "peripherals.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+#include "MK64F12.h"
+#include "fsl_debug_console.h"
+
+volatile uint8_t updatedDutycycle = 100U; 
+
+void delay(void)
+{
+    volatile uint32_t i = 0U;
+    for (i = 0U; i < 1000000U; ++i) {
+        __asm("NOP");
+    }
+}
+
+void SW2_GPIOC_IRQHANDLER(void) {
+    // Clear the interrupt flag
+	GPIO_PortClearInterruptFlags(GPIOC, 1U << 6U);
+
+    // Toggle the LED
+    GPIO_PinWrite(GPIOC, 22U, 0U);
+    delay();
+    // Update the duty cycle
+    if (updatedDutycycle == 0U) {
+        updatedDutycycle = 100U;
+    } else if (updatedDutycycle == 100U) {
+        updatedDutycycle = 50U;
+    } else {
+        updatedDutycycle = 0U;
+    }
+
+    FTM_UpdatePwmDutycycle(FTM0_PERIPHERAL, kFTM_Chnl_1, kFTM_EdgeAlignedPwm, updatedDutycycle);
+    FTM_SetSoftwareTrigger(FTM0_PERIPHERAL, true);
+
+    delay();
+}
+
+int main(void) {
+    BOARD_InitBootPins();
+    BOARD_InitBootClocks();
+    BOARD_InitBootPeripherals();
+#ifndef BOARD_INIT_DEBUG_CONSOLE_PERIPHERAL
+    BOARD_InitDebugConsole();
+#endif
+
+    PRINTF("Lab6_PWM_pinPTC2_1btn - John Trinidad");
+    PRINTF("\nPWM signal of 10KHz is generated on pin PTC2 by FTM0 channel 1");
+    PRINTF("\nPressing SW2 repeatedly will cycle LED brightness through 100%, 50%, 0%");
+
+    return 0 ;
+}

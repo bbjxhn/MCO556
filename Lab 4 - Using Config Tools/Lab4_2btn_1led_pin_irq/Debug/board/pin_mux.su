@@ -1,0 +1,14 @@
+E:\MCO 556\Lab 4 - Using Config Tools\Lab4_2btn_1led_pin_irq\drivers/fsl_clock.h:668:20:CLOCK_EnableClock	24	static
+E:\MCO 556\Lab 4 - Using Config Tools\Lab4_2btn_1led_pin_irq\drivers/fsl_port.h:271:20:PORT_SetPinConfig	32	static
+E:\MCO 556\Lab 4 - Using Config Tools\Lab4_2btn_1led_pin_irq\drivers/fsl_port.h:374:20:PORT_SetPinMux	24	static
+E:\MCO 556\Lab 4 - Using Config Tools\Lab4_2btn_1led_pin_irq\drivers/fsl_port.h:443:20:PORT_SetPinInterruptConfig	24	static
+../board/pin_mux.c:132:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:158:6:BOARD_InitPins	16	static
+../board/pin_mux.c:215:6:BOARD_InitButtonsPins	24	static
+../board/pin_mux.c:299:6:BOARD_InitLEDsPins	32	static
+../board/pin_mux.c:399:6:BOARD_InitDEBUG_UARTPins	16	static
+../board/pin_mux.c:466:6:BOARD_InitOSCPins	8	static
+../board/pin_mux.c:499:6:BOARD_InitACCELPins	32	static
+../board/pin_mux.c:625:6:BOARD_InitENETPins	48	static
+../board/pin_mux.c:840:6:BOARD_InitSDHCPins	40	static
+../board/pin_mux.c:990:6:BOARD_InitUSBPins	4	static
