@@ -24,11 +24,18 @@
  ******************************************************************************/
 
 /* Task priorities. */
-#define hello_task_PRIORITY (configMAX_PRIORITIES - 1)
+#define TaskA_task_PRIORITY (configMAX_PRIORITIES - 1)
+#define TaskB_task_PRIORITY (configMAX_PRIORITIES - 1)
+
+/*******************************************************************************
+ * Variables
+ ******************************************************************************/
+TaskHandle_t xTaskHandle = NULL;
 /*******************************************************************************
  * Prototypes
  ******************************************************************************/
-static void hello_task(void *pvParameters);
+static void TaskA_task(void *pvParameters);
+static void TaskB_task(void *pvParameters);
 
 /*******************************************************************************
  * Code
@@ -42,13 +49,22 @@ int main(void)
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
     BOARD_InitDebugConsole();
-    if (xTaskCreate(hello_task, "Hello_task", configMINIMAL_STACK_SIZE + 100, NULL, hello_task_PRIORITY, NULL) !=
+    if (xTaskCreate(TaskA_task, "TaskA_task", configMINIMAL_STACK_SIZE + 100, NULL, TaskA_task_PRIORITY, NULL) !=
         pdPASS)
     {
         PRINTF("Task creation failed!.\r\n");
         while (1)
             ;
     }
+
+    if (xTaskCreate(TaskB_task, "TaskB_task", configMINIMAL_STACK_SIZE + 100, NULL, TaskB_task_PRIORITY, NULL) !=
+        pdPASS)
+    {
+        PRINTF("Task creation failed!.\r\n");
+        while (1)
+            ;
+    }
+
     vTaskStartScheduler();
     for (;;)
         ;
@@ -57,11 +73,22 @@ int main(void)
 /*!
  * @brief Task responsible for printing of "Hello world." message.
  */
-static void hello_task(void *pvParameters)
+static void TaskA_task(void *pvParameters)
 {
     for (;;)
     {
-        PRINTF("Hello world.\r\n");
-        vTaskSuspend(NULL);
+        PRINTF("TaskA is running.\r\n");
+        //vTaskSuspend(NULL);
+        vTaskDelay(pdMS_TO_TICKS(500));
+    }
+}
+
+static void TaskB_task(void *pvParameters)
+{
+    for (;;)
+    {
+        PRINTF("TaskB is running.\r\n");
+        //vTaskSuspend(NULL);
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }

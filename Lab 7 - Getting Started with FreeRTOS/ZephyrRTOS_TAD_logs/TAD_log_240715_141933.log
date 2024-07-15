@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 11.10.0 (202404041456)
+Copyright 2016-2023 NXP
+==================================
+14:18:36.309 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\jmtri\Desktop\MCO 556\Lab 7 - Getting Started with FreeRTOS\Lab7_TaskA_TaskB_task-blocking\Debug\.config (The system cannot find the file specified)]
+14:18:36.309 INFO: [TadModel] DSF session ID 1 has started.
+14:18:41.316 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+14:18:41.371 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+14:18:42.65 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+14:18:42.232 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+14:18:45.254 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+14:18:46.612 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+14:19:33.544 INFO: [TadModel] DSF session ID 1 has ended.

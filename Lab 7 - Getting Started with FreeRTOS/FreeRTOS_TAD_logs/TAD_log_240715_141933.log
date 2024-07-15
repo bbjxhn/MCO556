@@ -1,0 +1,35 @@
+"Task Aware Debugger for GDB" version 11.10.0 (202404041456)
+Copyright 2016-2023 NXP
+==================================
+14:18:36.307 INFO: [TadModel] DSF session ID 1 has started.
+14:18:41.316 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+14:18:41.371 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+14:18:42.65 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+14:18:42.232 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+14:18:45.253 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+14:18:46.612 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+14:18:46.629 INFO: [Benchmark] Loading data for "Determine RTOS version" has started.
+14:18:46.707 INFO: [FreeRtosTadModel] Heap type (memory allocation scheme) has been identified from FreeRTOSDebugConfig structure as Heap #4. 
+14:18:46.707 INFO: [FreeRtosTadModel] FreeRTOS version has been identified from FreeRTOSDebugConfig structure as 10.4.3.
+14:18:46.707 INFO: [Benchmark] Loading data for "Determine RTOS version" took 78 ms.
+14:18:46.707 INFO: [Benchmark] Loading data for "Task List" has started.
+14:18:48.05 ERROR: [VariableReader] Could not read variable expression: "ulTotalRunTime[0]".
+14:18:48.05 ERROR: [VariableReader] Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+14:18:48.05 ERROR: [VariableReader] -data-evaluate-expression ulTotalRunTime[0]
+14:18:48.05 ERROR: [VariableReader] Error message from debugger back end:
+14:18:48.05 ERROR: [VariableReader] No symbol "ulTotalRunTime" in current context. java.lang.Exception: No symbol "ulTotalRunTime" in current context.
+14:18:48.05 ERROR: [TaskFactory] ulTotalRunTime not available
+14:18:48.412 ERROR: [VariableReader] Could not read variable expression: "(((struct tskTaskControlBlock *) 0x20000508)->uxCoreAffinityMask)".
+14:18:48.412 ERROR: [VariableReader] Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+14:18:48.413 ERROR: [VariableReader] -data-evaluate-expression "(((struct tskTaskControlBlock *) 0x20000508)->uxCoreAffinityMask)"
+14:18:48.413 ERROR: [VariableReader] Error message from debugger back end:
+14:18:48.413 ERROR: [VariableReader] There is no member named uxCoreAffinityMask. java.lang.Exception: There is no member named uxCoreAffinityMask.
+14:18:48.413 INFO: [FreeRTOS] RTOS macro "configUSE_CORE_AFFINITY" is disabled.
+14:18:48.520 ERROR: [VariableReader] Could not read variable expression: "(((struct tskTaskControlBlock *) 0x20000508)->ulRunTimeCounter)".
+14:18:48.521 ERROR: [VariableReader] Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+14:18:48.521 ERROR: [VariableReader] -data-evaluate-expression "(((struct tskTaskControlBlock *) 0x20000508)->ulRunTimeCounter)"
+14:18:48.521 ERROR: [VariableReader] Error message from debugger back end:
+14:18:48.521 ERROR: [VariableReader] There is no member named ulRunTimeCounter. java.lang.Exception: There is no member named ulRunTimeCounter.
+14:18:48.521 INFO: [FreeRTOS] RTOS macro "configGENERATE_RUN_TIME_STATS" is disabled.
+14:18:49.782 INFO: [Benchmark] Loading data for "Task List" took 3074 ms.
+14:19:33.544 INFO: [TadModel] DSF session ID 1 has ended.

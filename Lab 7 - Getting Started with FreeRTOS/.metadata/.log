@@ -39,3 +39,51 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-07-15 14:10:16.058
 !MESSAGE Indexed 'Lab7_TaskA_TaskB_task-blocking' (34 sources, 99 headers) in 1.85 sec: 11,354 declarations; 30,548 references; 15 unresolved inclusions; 158 syntax errors; 1,330 unresolved names (3.1%)
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:17:38.201
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-07-15 14:17:38.214
+!MESSAGE RedlinkServer telnet session connected on port 3025->58250 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:17:44.898
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58254, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/Lab7_TaskA_TaskB_task-blocking/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-07-15 14:17:47.609
+!MESSAGE Telnet session connected on port 3330->58267 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:18:34.903
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-07-15 14:18:35.920
+!MESSAGE RedlinkServer telnet session connected on port 3025->58273 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:18:37.713
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58274, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/Lab7_TaskA_TaskB_task-blocking/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-07-15 14:18:40.409
+!MESSAGE Telnet session connected on port 3330->58287 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:20:54.567
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-07-15 14:20:55.583
+!MESSAGE RedlinkServer telnet session connected on port 3025->58307 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:20:57.140
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58308, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/Lab7_TaskA_TaskB_task-blocking/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-07-15 14:20:59.864
+!MESSAGE Telnet session connected on port 3330->58321 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:22:58.436
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-07-15 14:22:59.457
+!MESSAGE RedlinkServer telnet session connected on port 3025->58349 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-07-15 14:23:01.814
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_1.6.133/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58350, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/Lab7_TaskA_TaskB_task-blocking/Debug, --flash-dir, C:/nxp/LinkServer_1.6.133/binaries/Flash, --flash-dir, C:/Users/jmtri/Desktop/MCO 556/Lab 7 - Getting Started with FreeRTOS/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-07-15 14:23:04.560
+!MESSAGE Telnet session connected on port 3330->58363 @ 127.0.0.1

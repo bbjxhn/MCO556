@@ -57,11 +57,22 @@ int main(void)
 /*!
  * @brief Task responsible for printing of "Hello world." message.
  */
-static void hello_task(void *pvParameters)
+static void TaskA_task(void *pvParameters)
 {
     for (;;)
     {
-        PRINTF("Hello world.\r\n");
-        vTaskSuspend(NULL);
+        PRINTF("TaskA is running.\r\n");
+        //vTaskSuspend(NULL);
+        vTaskDelay(pdMS_TO_TICKS(500));
+    }
+}
+
+static void TaskB_task(void *pvParameters)
+{
+    for (;;)
+    {
+        PRINTF("TaskB is running.\r\n");
+        //vTaskSuspend(NULL);
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
