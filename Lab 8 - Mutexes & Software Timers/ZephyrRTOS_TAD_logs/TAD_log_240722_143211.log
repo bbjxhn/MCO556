@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 11.10.0 (202404041456)
+Copyright 2016-2023 NXP
+==================================
+14:31:50.426 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\jmtri\Desktop\MCO 556\Lab 8 - Mutexes\Lab8_freertos_mutex_swtimer\Debug\.config (The system cannot find the file specified)]
+14:31:50.427 INFO: [TadModel] DSF session ID 8 has started.
+14:31:55.129 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+14:31:55.171 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+14:31:56.882 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+14:31:57.13 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+14:31:58.470 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+14:32:09.635 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+14:32:11.816 INFO: [TadModel] DSF session ID 8 has ended.
